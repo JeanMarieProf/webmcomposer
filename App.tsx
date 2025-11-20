@@ -967,16 +967,21 @@ export default function App() {
 
       <div className="hidden">
         {playlist.map(clip => (
-            <video 
-                key={clip.id} 
-                ref={(el) => assignVideoRef(el, clip.id)} 
-                src={clip.url} 
-                crossOrigin="anonymous" playsInline muted 
+            <video
+                key={clip.id}
+                ref={(el) => assignVideoRef(el, clip.id)}
+                src={clip.url}
+                crossOrigin="anonymous" playsInline muted
                 preload="auto"
             />
         ))}
         <video ref={overlayVideoRef} crossOrigin="anonymous" playsInline muted loop />
         <audio ref={audioRef} crossOrigin="anonymous" />
+      </div>
+
+      {/* Logo HSH en bas à droite */}
+      <div className="fixed bottom-4 right-4 opacity-50 hover:opacity-100 transition-opacity">
+        <img src="/favicon.svg" alt="HSH" width="48" height="48" />
       </div>
     </div>
   );

@@ -1,5 +1,9 @@
 # WebM Composer Studio
 
+<div align="center">
+  <img src="public/favicon.svg" alt="HSH Logo" width="120" height="120">
+</div>
+
 Un éditeur vidéo dans le navigateur construit avec React et TypeScript. Créez des compositions vidéo professionnelles avec des playlists multi-clips, des superpositions vidéo, du mixage audio et des effets en temps réel - le tout fonctionnant entièrement dans votre navigateur.
 
 ## ✨ Fonctionnalités
