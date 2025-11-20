@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-track {
+  background: #4b5563;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+input[type="range"]::-moz-range-track {
+  background: #4b5563;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -4px;
+  background-color: #3b82f6;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-thumb {
+  border: none;
+  background-color: #3b82f6;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+input[type="range"]:focus::-moz-range-thumb {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+

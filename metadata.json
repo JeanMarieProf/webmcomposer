@@ -1,0 +1,5 @@
+{
+  "name": "LEGO WebM Composer",
+  "description": "A powerful browser-based video editor. Crop, trim, overlay videos, and mix audio tracks directly in the canvas using React and Tailwind.",
+  "requestFramePermissions": []
+}
