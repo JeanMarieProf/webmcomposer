@@ -1,84 +1,84 @@
 # WebM Composer Studio
 
-A browser-based video editor built with React and TypeScript. Create professional video compositions with multi-clip playlists, video overlays, audio mixing, and real-time effects - all running entirely in your browser.
+Un éditeur vidéo dans le navigateur construit avec React et TypeScript. Créez des compositions vidéo professionnelles avec des playlists multi-clips, des superpositions vidéo, du mixage audio et des effets en temps réel - le tout fonctionnant entièrement dans votre navigateur.
 
-## ✨ Features
+## ✨ Fonctionnalités
 
-- **Multi-Clip Playlist**: Add multiple video files to a main track with individual trimming controls
-- **Video Overlay**: Layer a second video on top with customizable positioning and sizing
-- **Audio Mixing**: Add external audio tracks with independent volume controls for each source
-- **Real-Time Effects**: Apply filters (grayscale, sepia, blur, brightness, etc.) and crop areas
-- **Timeline Scrubbing**: Precise playback control with visual timeline
-- **WebM Export**: Record and download your final composition in WebM format
-- **No Server Required**: Everything runs client-side using Web APIs
+- **Playlist Multi-Clips** : Ajoutez plusieurs fichiers vidéo à une piste principale avec des contrôles de découpage individuels
+- **Superposition Vidéo** : Superposez une seconde vidéo avec positionnement et dimensionnement personnalisables
+- **Mixage Audio** : Ajoutez des pistes audio externes avec contrôles de volume indépendants pour chaque source
+- **Effets en Temps Réel** : Appliquez des filtres (niveaux de gris, sépia, flou, luminosité, etc.) et des zones de recadrage
+- **Navigation Timeline** : Contrôle de lecture précis avec timeline visuelle
+- **Export WebM** : Enregistrez et téléchargez votre composition finale au format WebM
+- **Aucun Serveur Requis** : Tout fonctionne côté client en utilisant les API Web
 
-## 🚀 Quick Start
+## 🚀 Démarrage Rapide
 
-**Prerequisites:** Node.js (v16 or higher)
+**Prérequis :** Node.js (v16 ou supérieur)
 
-1. **Clone the repository**
+1. **Cloner le dépôt**
 
    ```bash
    git clone https://github.com/JeanMarieProf/webmcomposer.git
    cd webmcomposer
    ```
 
-2. **Install dependencies**
+2. **Installer les dépendances**
 
    ```bash
    npm install
    ```
 
-3. **Run the development server**
+3. **Lancer le serveur de développement**
 
    ```bash
    npm run dev
    ```
 
-4. **Open your browser**
-   - Navigate to `http://localhost:3000`
-   - Start creating your video compositions!
+4. **Ouvrir votre navigateur**
+   - Naviguez vers `http://localhost:3000`
+   - Commencez à créer vos compositions vidéo !
 
-## 🛠️ Tech Stack
+## 🛠️ Stack Technique
 
-- **React 19** - UI framework
-- **TypeScript** - Type safety
-- **Vite** - Build tool and dev server
-- **Tailwind CSS** - Styling
-- **HTML5 Canvas** - Video rendering
-- **Web Audio API** - Audio mixing
-- **MediaRecorder API** - Video export
+- **React 19** - Framework UI
+- **TypeScript** - Typage statique
+- **Vite** - Outil de build et serveur de développement
+- **Tailwind CSS** - Stylisation
+- **HTML5 Canvas** - Rendu vidéo
+- **Web Audio API** - Mixage audio
+- **MediaRecorder API** - Export vidéo
 
-## 📦 Build for Production
+## 📦 Build pour la Production
 
 ```bash
 npm run build
 ```
 
-The production-ready files will be in the `dist/` folder.
+Les fichiers prêts pour la production seront dans le dossier `dist/`.
 
-## 🎯 Usage
+## 🎯 Utilisation
 
-1. **Add Videos**: Click "Upload Main Video" to add clips to your playlist
-2. **Trim Clips**: Set start/end times for each clip
-3. **Add Overlay**: Upload a second video to layer on top
-4. **Mix Audio**: Add external audio tracks and adjust volumes
-5. **Apply Effects**: Use filters and crop tools for creative control
-6. **Export**: Click "Start Recording" to capture your composition
+1. **Ajouter des Vidéos** : Cliquez sur "Upload Main Video" pour ajouter des clips à votre playlist
+2. **Découper les Clips** : Définissez les temps de début/fin pour chaque clip
+3. **Ajouter une Superposition** : Téléchargez une seconde vidéo à superposer
+4. **Mixer l'Audio** : Ajoutez des pistes audio externes et ajustez les volumes
+5. **Appliquer des Effets** : Utilisez les filtres et outils de recadrage pour un contrôle créatif
+6. **Exporter** : Cliquez sur "Start Recording" pour capturer votre composition
 
 ## 🔧 Configuration
 
-The project uses a fixed Vite configuration optimized for Windows development. The HMR (Hot Module Replacement) is configured to work correctly with WebSocket connections on localhost.
+Le projet utilise une configuration Vite optimisée pour le développement sous Windows. Le HMR (Hot Module Replacement) est configuré pour fonctionner correctement avec les connexions WebSocket sur localhost.
 
-## 📝 License
+## 📝 Licence
 
-This project is open source and available under the MIT License.
+Ce projet est open source et disponible sous la licence MIT.
 
-## 🤝 Contributing
+## 🤝 Contribuer
 
-Contributions, issues, and feature requests are welcome!
+Les contributions, issues et demandes de fonctionnalités sont les bienvenues !
 
-## 👤 Author
+## 👤 Auteur
 
 **JeanMarieProf**
 
