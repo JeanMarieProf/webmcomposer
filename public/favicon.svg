@@ -1,19 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Cercle de bordure -->
-  <circle cx="50" cy="50" r="48" fill="none" stroke="#1e40af" stroke-width="2"/>
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="50" cy="50" r="48"/>
+    </clipPath>
+  </defs>
 
   <!-- Ciel (partie haute) -->
-  <path d="M 2 50 A 48 48 0 0 1 98 50 L 98 2 A 48 48 0 0 0 2 2 Z" fill="#3b82f6"/>
+  <rect x="0" y="0" width="100" height="60" fill="#3b82f6" clip-path="url(#circle-clip)"/>
 
   <!-- Mer (partie basse) -->
-  <path d="M 2 50 A 48 48 0 0 0 98 50 L 98 98 A 48 48 0 0 1 2 98 Z" fill="#1e3a8a"/>
+  <rect x="0" y="60" width="100" height="40" fill="#1e3a8a" clip-path="url(#circle-clip)"/>
 
-  <!-- Soleil (cercle jaune au-dessus du second H) -->
-  <circle cx="68" cy="28" r="6" fill="#fbbf24"/>
+  <!-- Bordure du cercle -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#1e40af" stroke-width="2"/>
 
   <!-- Texte HSH -->
-  <text x="50" y="58" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="central">HSH</text>
+  <text x="50" y="54" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="central">HSH</text>
 
-  <!-- Triangle rouge (pointe de tour sur le premier H) -->
-  <path d="M 24 28 L 28 20 L 32 28 Z" fill="#dc2626"/>
+  <!-- Triangle rouge (chapeau sur le premier H) -->
+  <path d="M 18 38 L 28 24 L 38 38 Z" fill="#dc2626"/>
+
+  <!-- Soleil (cercle jaune au-dessus du second H) -->
+  <circle cx="72" cy="32" r="8" fill="#fbbf24"/>
 </svg>
