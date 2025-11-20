@@ -1,4 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <circle cx="50" cy="50" r="48" fill="#3b82f6" stroke="#1e40af" stroke-width="2"/>
-  <text x="50" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="central">HSH</text>
+  <!-- Cercle de bordure -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#1e40af" stroke-width="2"/>
+
+  <!-- Ciel (partie haute) -->
+  <path d="M 2 50 A 48 48 0 0 1 98 50 L 98 2 A 48 48 0 0 0 2 2 Z" fill="#3b82f6"/>
+
+  <!-- Mer (partie basse) -->
+  <path d="M 2 50 A 48 48 0 0 0 98 50 L 98 98 A 48 48 0 0 1 2 98 Z" fill="#1e3a8a"/>
+
+  <!-- Soleil (cercle jaune au-dessus du second H) -->
+  <circle cx="68" cy="28" r="6" fill="#fbbf24"/>
+
+  <!-- Texte HSH -->
+  <text x="50" y="58" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="central">HSH</text>
+
+  <!-- Triangle rouge (pointe de tour sur le premier H) -->
+  <path d="M 24 28 L 28 20 L 32 28 Z" fill="#dc2626"/>
 </svg>
